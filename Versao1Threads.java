@@ -17,7 +17,7 @@ public class Versao1Threads {
         File pasta = new File(ENTRADA_DIR);
         File[] arquivos = pasta.listFiles((dir, name) -> name.endsWith(".txt"));
         if (arquivos == null || arquivos.length != 30) {{
-            System.out.println("aguardando os 30 arquivos'entradas'.");
+            System.out.println("aguardando os 30 arquivos'cpfs'.");
             return;
         }}
 
